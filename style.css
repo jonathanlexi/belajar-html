@@ -3,11 +3,17 @@
     margin: 0;
 }
 
-
 body{
-    width: 100%;
-    background-color: aquamarine;
+    height: 100%;
 }
+
+.container {
+    margin: 10% auto;
+    width: 50%;
+    height: 20%;
+  
+}
+
 
 section#profile {
     
@@ -15,18 +21,24 @@ section#profile {
     justify-content: center;
     align-items: center;
     gap: 2%;
-    padding: 5% 20%;
+    padding: 2% 20%;
+    background-color: blueviolet;
+    height: 75px;
+    
 
 }
 
 section#findsos{
 
+
+    padding-top: 10%;
     display: flex;
     text-align: center;
     justify-content: center; 
     gap: 2%;
     flex-direction: column;
-    
+    background-color: burlywood;
+   
 }
 
 ul#sosmed{
