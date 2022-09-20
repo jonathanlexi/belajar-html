@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    
+}
+
+section#profile {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding: 5% 20%;
+
+}
+
+section#findsos{
+
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    gap: 2%;
+    flex-direction: column;
+    
+}
+
+ul#sosmed{
+    display: flex;
+    text-align: center;
+    justify-content: center; 
+    gap: 2%;
+    list-style-type: none;
+    padding: 25px 20px;
+}
+ul#sosmed li a{
+    text-decoration: none;
+    background-color: yellow;
+    color: black;
+    padding: 15px 20px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+
+
+
+
+
